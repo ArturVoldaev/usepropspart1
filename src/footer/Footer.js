@@ -14,9 +14,9 @@ class Footer extends React.Component {
 
             {Object.keys(addresArray).map(elem => 
               <div className="col-3">
-                <p> {`Офис в городе:`} {addresArray[elem]["city"]}{'\n'}</p>
-                <p> {`Адрес офиса:`} {addresArray[elem]["street"]}{'\n'}</p>
-                <p> {`Номер дома/номер офиса:`} {addresArray[elem]["numberOfHouse"]}{'\n'}</p>
+                <p> {`Офис в городе:`} {addresArray[elem].city}{'\n'}</p>
+                <p> {`Адрес офиса:`} {addresArray[elem].street}{'\n'}</p>
+                <p> {`Номер дома/номер офиса:`} {addresArray[elem].numberOfHouse}{'\n'}</p>
               </div>
             )}
 
